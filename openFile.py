@@ -15,8 +15,6 @@ number = int(number)
 
 number += 1
 
-print(number += 1)
-
 f.writelines(str(number) + "\n")
 
 f.close()
