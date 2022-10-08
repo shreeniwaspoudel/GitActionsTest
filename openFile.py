@@ -5,7 +5,10 @@ Created on Sat Oct  8 13:38:23 2022
 @author: ShreeniwasSharma-Pou
 """
 
+from SecondCode import dummy_function
+
 print("It just worked")
+dummy_function()
 
 f = open("demofile.txt", "r+")
 
