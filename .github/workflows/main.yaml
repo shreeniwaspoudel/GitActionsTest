@@ -28,4 +28,4 @@ jobs:
           python -m pip install --sentence transformers
           
       - name: Execute Python Script
-        run: python openFile.py
+        run: python "Test EDA for GitHub Actions PoC.py"
