@@ -2,7 +2,7 @@ name: minbymin
 
 on:
   schedule:
-    - cron: '*/5 * * * *' #Execute every 59 mins
+    - cron: '*/5 * * * *' #Execute every 5 mins
   workflow_dispatch: 
 
 jobs:
