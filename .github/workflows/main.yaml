@@ -2,7 +2,7 @@ name: minbymin
 
 on:
   schedule:
-    - cron: '*/5 * * * *' #Execute every 59 mins
+    - cron: '*/5 * * * *' #Execute every 5 mins
   workflow_dispatch: 
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v3
         with:
-        path: "path/to/requirements.txt"
+        path: "requirements.txt"
           
       - name: Execute Python Script
         run: python openFile.py
