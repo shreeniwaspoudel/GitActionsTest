@@ -19,4 +19,4 @@ jobs:
           python-version: '3.9.7' 
           
       - name: Execute Python Script
-        run: python "Test EDA for GitHub Actions PoC.py"
+        run: python "openFile.py"
