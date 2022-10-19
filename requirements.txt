@@ -1,2 +1,7 @@
-###### Requirements without Version Specifiers ######
+# Necessary libraries
+pandas
+numpy
 matplotlib
+seaborn
+plotly
+sentence_transformers
