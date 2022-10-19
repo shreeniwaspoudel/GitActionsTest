@@ -16,7 +16,12 @@ jobs:
       - name: Configure Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9.7' 
+          python-version: '3.9.7'
+      
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v3
+        with:
+        path: "path/to/requirements.txt"
           
       - name: Execute Python Script
         run: python openFile.py
