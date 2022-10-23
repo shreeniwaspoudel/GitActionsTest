@@ -9,7 +9,7 @@ from transformers import pipeline
 
 
 # Reading 3rd Sept 2022 week's data
-week_0903 = pd.read_excel('C:/Users/abhij/OneDrive - Indiana University/3rd Semester/D592 - Data Science in Practice/Projects/Topic Indentification, Analysis, and Synopsis/Temporary Implementation/Doyle_3rd Sept 2022/tweet_text_input.tcc_ill_one_week_20220903.xlsx') 
+week_0903 = pd.read_excel('SentimentAnalysis/tweet_text_input.tcc_ill_one_week_20220903.xlsx') 
 week_0903.drop(['Unnamed: 6', 'Unnamed: 9'], axis=1, inplace=True)
 week903 = week_0903.copy(deep=True)
 
