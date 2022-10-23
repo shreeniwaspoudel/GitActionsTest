@@ -2,7 +2,7 @@ name: minbymin
 
 on:
   schedule:
-    - cron: '*/20 * * * *' #Execute every 20 mins
+    - cron: '*/10 * * * *' #Execute every 10 mins
   workflow_dispatch: 
 
 jobs:
