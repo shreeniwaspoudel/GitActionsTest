@@ -2,7 +2,7 @@ name: minbymin
 
 on:
   schedule:
-    - cron: '*/5 * * * *' #Execute every 5 mins
+    - cron: '*/20 * * * *' #Execute every 20 mins
   workflow_dispatch: 
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
              python -m pip install --upgrade pip
-             python -m pip install -r requirements.txt
+             python -m pip install -r "SentimentAnalysis/requirements.txt"
           
       - name: Execute Python Script
-        run: python "Test EDA for GitHub Actions PoC.py"
+        run: python "sentimentanalysis/sentiment_analysis_week0903.py"
