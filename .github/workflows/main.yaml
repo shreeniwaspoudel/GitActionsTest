@@ -30,6 +30,7 @@ jobs:
         run: |
              git config --global user.email "shreeniwaspoudel@gmail.com"
              git config --global user.name "shreeniwaspoudel"
-             git commit -am "demofile.txt"
+             git add -A   # Tracks any new file generated
+             git commit #-am "demofile.txt"
              git push
 
