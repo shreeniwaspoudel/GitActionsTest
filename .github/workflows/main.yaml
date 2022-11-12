@@ -26,3 +26,6 @@ jobs:
       - name: Execute Python Script
         run: python "openFile.py"
 
+      - name: Update the repo
+        run: python "openFile.py"
+
