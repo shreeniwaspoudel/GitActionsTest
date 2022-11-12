@@ -28,6 +28,8 @@ jobs:
 
       - name: Update the repo
         run: |
+             git config --global user.email "shreeniwaspoudel@gmail.com"
+             git config --global user.name "shreeniwaspoudel"
              git commit -am "demofile.txt"
              git push
 
