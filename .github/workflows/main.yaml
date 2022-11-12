@@ -1,4 +1,4 @@
-name: minbymin
+name: TopicDetectionWorkflow
 
 on:
   schedule:
@@ -31,6 +31,6 @@ jobs:
              git config --global user.email "shreeniwaspoudel@gmail.com"
              git config --global user.name "shreeniwaspoudel"
              git add -A   # Tracks any new file generated
-             git commit -m "Automated commit"
+             git commit -m "Automated commit"   # Commit with the message in the quotation
              git push
 
