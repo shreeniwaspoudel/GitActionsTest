@@ -24,4 +24,4 @@ jobs:
              python -m pip install -r "SentimentAnalysis/requirements.txt"
           
       - name: Execute Python Script
-        run: python "SentimentAnalysis/sentiment_analysis_week0903.py"
+        run: python "openFile.py"
