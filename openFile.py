@@ -24,3 +24,9 @@ f.writelines(str(number) + "\n")
 
 f.close()
 
+filename = str(number) + ".txt"
+
+with open(filename, 'x') as f:
+    f.write('Create a new text file!')
+
+f.close()
