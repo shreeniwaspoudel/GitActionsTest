@@ -3,7 +3,7 @@ name: minbymin
 on:
   schedule:
     - cron: '0 */21 * * *' #Execute every 21 hours
-  # workflow_dispatch: 
+  workflow_dispatch: 
 
 jobs:
   build:
