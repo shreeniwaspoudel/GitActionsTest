@@ -27,5 +27,7 @@ jobs:
         run: python "openFile.py"
 
       - name: Update the repo
-        run: python "openFile.py"
+        run: |
+             git commit -am "demofile.txt"
+             git push
 
