@@ -18,6 +18,8 @@ number = int(number)
 
 number += 1
 
+print(number)
+
 f.writelines(str(number) + "\n")
 
 f.close()
