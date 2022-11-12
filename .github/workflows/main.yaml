@@ -25,3 +25,6 @@ jobs:
           
       - name: Execute Python Script
         run: python "openFile.py"
+
+      - name: Update the repository
+        run: git push
