@@ -31,6 +31,6 @@ jobs:
              git config --global user.email "shreeniwaspoudel@gmail.com"
              git config --global user.name "shreeniwaspoudel"
              git add -A   # Tracks any new file generated
-             git commit -a
+             git commit
              git push
 
